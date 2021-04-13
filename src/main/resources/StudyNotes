@@ -1,0 +1,11 @@
+Understanding Template Engines
+    Standard Java Jakarta Enterprise Edition(Jakarta EE) applications use JavaServer Pages(JSPs) to generate presentation views for the end user.
+    JSP is a mature technology that enables the use of embedded Java code as well as JavaServer Pages Standard Tag Library(JSTL) element, which will, in turn, execute java code,
+    which can generate presentation views. All JSPs are eventually compiled as a Servlet.
+
+
+    But mixing these Java code and presentation specific codes (HTML,CSS and many more) is cumbersome and makes the separation of concerns difficult. Furthermore,
+    presentation views mad using plan JSPs are difficult to modify and be maintained by UI engineers. That is where UI template engines are useful
+
+    Template engines provide easy way of decoupling presentation view code from business logic so that each is layered and can be developed and maintained independently of the other.
+    This helps vastly reduce code duplication and the number of bugs introduced because template engines allow the reuse of previously tested production ready code!!

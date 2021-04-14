@@ -9,3 +9,13 @@ Understanding Template Engines
 
     Template engines provide easy way of decoupling presentation view code from business logic so that each is layered and can be developed and maintained independently of the other.
     This helps vastly reduce code duplication and the number of bugs introduced because template engines allow the reuse of previously tested production ready code!!
+
+
+Apache FreeMarker
+    it is a popular template engine that can generate a text output based on the template and variable data.
+    Apache FreeMarker use a custom programming language named FreeMarker Template language(FTL),, which is used to write
+    programming constructs in presentation views
+
+
+    *** A controller is used to prepare the data required, which is then passed on to the template in order to render the presentation views.
+    Apache FreeMarker focuses on how to present the data that is sent to it in an aesthetically pleasing manner

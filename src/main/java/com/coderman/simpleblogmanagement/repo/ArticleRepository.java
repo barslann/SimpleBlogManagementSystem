@@ -3,9 +3,11 @@ package com.coderman.simpleblogmanagement.repo;
 import com.coderman.simpleblogmanagement.domain.Article;
 import org.springframework.data.domain.Page;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
+import org.springframework.stereotype.Repository;
 
 import java.awt.print.Pageable;
 import java.util.Optional;
+
 
 public interface ArticleRepository extends ElasticsearchRepository<Article,String> {
     Optional<Article> findByLink(String link);
